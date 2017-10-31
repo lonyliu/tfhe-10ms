@@ -1,0 +1,1 @@
+/usr/bin/c++  -O3 -DNDEBUG  -rdynamic CMakeFiles/test-bootstrapping-fft-spqlios-avx.dir/test-bootstrapping-fft.cpp.o  -o test-bootstrapping-fft-spqlios-avx ../libtfhe/libtfhe-spqlios-avx.a 

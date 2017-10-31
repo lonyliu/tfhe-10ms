@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/ding/下载/zhounew/tfhe-tfhe-4247b21————temp/src/libtfhe/fft_processors/nayuki/fft-model-of-x8664-avx.c
+stdint.h
+-
+stdlib.h
+-
+fft.h
+/home/ding/下载/zhounew/tfhe-tfhe-4247b21————temp/src/libtfhe/fft_processors/nayuki/fft.h
+
+/home/ding/下载/zhounew/tfhe-tfhe-4247b21————temp/src/libtfhe/fft_processors/nayuki/fft-x8664-avx-aux.c
+math.h
+-
+stdint.h
+-
+stdlib.h
+-
+string.h
+-
+fft.h
+/home/ding/下载/zhounew/tfhe-tfhe-4247b21————temp/src/libtfhe/fft_processors/nayuki/fft.h
+
+/home/ding/下载/zhounew/tfhe-tfhe-4247b21————temp/src/libtfhe/fft_processors/nayuki/fft.h
+
