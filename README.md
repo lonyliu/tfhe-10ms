@@ -32,12 +32,17 @@ It will compile the library in optimized mode, and install it to ```/usr/local/l
 Currently, only static libraries are generated. 
 
 If you want to choose additional compile options (i.e. other installation folder, debug mode, tests, fftw), you need to run cmake manually and pass the desired options:
+
+
 ```
 mkdir build
 cd build
 cmake ../src -DENABLE_TESTS=on -DENABLE_FFTW=on -DCMAKE_BUILD_TYPE=release
+cmake ../src -DENABLE_TESTS=on -DENABLE_FFTW=on -DCMAKE_BUILD_TYPE=release
 make
 ```
+
+
 The available options are the following:
 
 | Variable Name          | values           | 
