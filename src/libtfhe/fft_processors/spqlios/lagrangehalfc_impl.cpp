@@ -143,6 +143,7 @@ EXPORT void LagrangeHalfCPolynomialAddTorusConstant(LagrangeHalfCPolynomial* res
  
 }
 #endif
+/*
 #ifndef __AVX2__
 EXPORT void LagrangeHalfCPolynomialAddTorusConstant2(LagrangeHalfCPolynomial* result, LagrangeHalfCPolynomial* result2) {
     LagrangeHalfCPolynomial_IMPL* result11 = (LagrangeHalfCPolynomial_IMPL*) result;
@@ -178,6 +179,7 @@ EXPORT void LagrangeHalfCPolynomialAddTorusConstant2(LagrangeHalfCPolynomial* re
  
 }
 #endif
+*/
 EXPORT void LagrangeHalfCPolynomialSetXai(LagrangeHalfCPolynomial* result, const int ai) {
     LagrangeHalfCPolynomial_IMPL* result1 = (LagrangeHalfCPolynomial_IMPL*) result;
     const int Ns2 = result1->proc->Ns2;
