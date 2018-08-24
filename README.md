@@ -2,6 +2,7 @@
 
 Thanks to the sharing of TFHE source code, since our work mainly focused on optimizing and improving the BOOTSTRAPPING module in TFHE, some modifications were made in the code, mainly focusing on the files /src/lwe-bootstrapping-functions-fft.cpp /src/tgsw-fft-operations.cpp /src/lwe-bootstrapping-functions.cpp /src/tfhe_gate_bootstrapping.cpp.
 
+We have made two improvements to accelerate the bootstrapping based on TFHE. On the one hand, as hundreds of serial homomorphic additions take most of the time of bootstrapping, we constructed the logical expression using truth table to reduce the number of serial homomorphic additions by two-thirds, and thus proposed an efficient FHE scheme with bootstrapping. On the other hand, we proposed a set of more efficient combination of parameters.
 Thanks again for the source code and you can visit https://github.com/tfhe/tfhe for more informations.
 
 
