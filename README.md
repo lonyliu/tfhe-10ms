@@ -2,7 +2,7 @@
 
 Thanks to the sharing of TFHE source code, since our work mainly focused on optimizing and improving the BOOTSTRAPPING module in TFHE, some modifications were made in the code, mainly focusing on the files /src/lwe-bootstrapping-functions-fft.cpp /src/tgsw-fft-operations.cpp /src/lwe-bootstrapping-functions.cpp /src/tfhe_gate_bootstrapping.cpp.
 
-Thanks again for the source code and you can visit https://github.com/tfhe/tfhe for more information .
+Thanks again for the source code and you can visit https://github.com/tfhe/tfhe for more informations.
 
 
 TFHE is open-source software distributed under the terms of the Apache 2.0 license. 
