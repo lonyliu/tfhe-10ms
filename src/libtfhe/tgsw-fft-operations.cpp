@@ -82,8 +82,8 @@ EXPORT void tGswFFTAdd(TGswSampleFFT* result, TGswSampleFFT* result2, const TGsw
 
     for (int j=0; j<l; j++) {
         //Torus32 hj = params->h[j];
-        for (int i=0; i<=k; i++)
-       LagrangeHalfCPolynomialAddTorusConstant2(&result->sample[i][j].a[i],&result2->sample[i][j].a[i]); 
+        //for (int i=0; i<=k; i++)
+       //LagrangeHalfCPolynomialAddTorusConstant2(&result->sample[i][j].a[i],&result2->sample[i][j].a[i]); 
     }
 
 }
